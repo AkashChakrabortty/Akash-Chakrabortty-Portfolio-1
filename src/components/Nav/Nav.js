@@ -27,16 +27,16 @@ const Nav = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a href="#about">About Me</a>
               </li>
               <li>
-                <a>About Me</a>
+                <a href="#project">Project</a>
               </li>
               <li>
-                <a>Project</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -48,7 +48,7 @@ const Nav = () => {
         </div>
         <div className="navbar-end">
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-            <div className="w-10 rounded-full">
+            <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
               <img src={img} />
             </div>
           </label>

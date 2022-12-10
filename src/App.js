@@ -1,9 +1,9 @@
 import './App.css';
-import Nav from './components/Nav/Nav.js';
+import Home from './components/Home/Home';
 function App() {
   return (
     <div>
-      <Nav></Nav>
+      <Home></Home>
     </div>
   );
 }
