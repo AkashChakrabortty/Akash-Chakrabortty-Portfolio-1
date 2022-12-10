@@ -37,7 +37,7 @@ const Contact = () => {
                   <span className="text-2xl">Your Message</span>
                 </label>
                 <label className="input-group">
-                <textarea className="textarea textarea-success w-3/4 mx-auto text-xl" placeholder="Type Your message"></textarea>
+                <textarea className="textarea textarea-success w-3/4 mx-auto text-xl h-48" placeholder="Type Your message"></textarea>
                 </label>
                 <button className="btn btn-primary w-48 mx-auto mt-2">Send me</button>
               </div>
