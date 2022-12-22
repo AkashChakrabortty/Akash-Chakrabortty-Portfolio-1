@@ -1,6 +1,8 @@
 import React from "react";
 import jsfun from './js fun project.png';
 import chitchat from './Screenshot_1.png';
+import Photographer from './Screenshot_2.png';
+import buySell from './Screenshot_3.png';
 const Project = () => {
   return (
     <div id="project">
@@ -74,7 +76,7 @@ const Project = () => {
           <div className="Buy-Sell lg:flex justify-evenly w-3/4 mx-auto mt-4">
             <div className="card card-compact w-96 bg-base-100 shadow-xl mx-auto">
               <figure>
-                <img src={chitchat} alt="Shoes" className="h-96	" />
+                <img src={buySell} alt="Shoes" className="h-96	" />
               </figure>
               <div className="card-body">
                 <h2 className="card-title text-2xl">Buy-Sell</h2>
@@ -129,7 +131,7 @@ const Project = () => {
           <div className="Photographer lg:flex justify-evenly w-3/4 mx-auto mt-4">
             <div className="card card-compact w-96 bg-base-100 shadow-xl mx-auto">
               <figure>
-                <img src={chitchat} alt="Shoes" className="h-96	" />
+                <img src={Photographer} alt="Shoes" className="h-96	" />
               </figure>
               <div className="card-body">
                 <h2 className="card-title text-2xl">Photographer</h2>
