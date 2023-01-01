@@ -2,7 +2,7 @@ import React from "react";
 import img from "./own.jpg";
 const Banner = () => {
   return (
-    <div className="hero min-h-screen bg-base-200" id="home">
+    <div className="hero min-h-screen font-color" id="home">
       <div className="lg:w-3/5 mx-auto">
         <div className="hero-content flex-col lg:flex-row">
           <img
@@ -46,7 +46,7 @@ const Banner = () => {
               rel="noreferrer"
             >
               {" "}
-              <button className="btn btn-primary">Download Resume</button>
+              <button className="btn font-color">Download Resume</button>
             </a>
 
             <div className="social-link w-1/4 flex justify-evenly mt-3">
@@ -67,22 +67,21 @@ const Banner = () => {
                 </a>
               </div>
               <div className="linkedin">
-                  <a
-                    href="https://www.linkedin.com/in/akash-chakrabortty-dev/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="m-2 w-10 h-10 inline-flex justify-center items-center shadow-sm rounded-full border-2 border-[#0E76A8] bg-white text-[#0E76A8]"
-                    style={{ borderColor: "#0E76A8", color: "#0E76A8" }}
+                <a
+                  href="https://www.linkedin.com/in/akash-chakrabortty-dev/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="m-2 w-10 h-10 inline-flex justify-center items-center shadow-sm rounded-full border-2 border-[#0E76A8] bg-white text-[#0E76A8]"
+                  style={{ borderColor: "#0E76A8", color: "#0E76A8" }}
+                >
+                  <svg
+                    className="w-5 h-5 fill-current"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
                   >
-                    <svg
-                      className="w-5 h-5 fill-current"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
-                    </svg>
-                  </a>
-               
+                    <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>

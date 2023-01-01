@@ -8,8 +8,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #051622;
 }
-
+.default-bg{
+  background-color: #051622;
+}
+.font-color{
+   color: #1BA098;
+}
+.default-skills-bg{
+  background-color: #DEB992;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
